@@ -173,7 +173,8 @@ public class MainScreen extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    
+  
     private void txtSubTotalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSubTotalActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtSubTotalActionPerformed
@@ -219,6 +220,9 @@ public class MainScreen extends javax.swing.JFrame {
     private void btnNewOrderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNewOrderActionPerformed
         // TODO add your handling code here:
       
+        dlgPrint printdlg = new dlgPrint(this,true,this.ice.order);
+        
+        printdlg.setVisible(true);
 
     }//GEN-LAST:event_btnNewOrderActionPerformed
 
