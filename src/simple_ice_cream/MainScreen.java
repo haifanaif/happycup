@@ -220,9 +220,7 @@ public class MainScreen extends javax.swing.JFrame {
     private void btnNewOrderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNewOrderActionPerformed
         // TODO add your handling code here:
       
-        dlgPrint printdlg = new dlgPrint(this,true,this.ice.order);
-        
-        printdlg.setVisible(true);
+       
 
     }//GEN-LAST:event_btnNewOrderActionPerformed
 
